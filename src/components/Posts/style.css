@@ -1,0 +1,70 @@
+
+.wrapper{
+	
+margin: 50px auto;
+max-width: 1200px;
+display: flex;
+justify-content: center;
+}
+.box{
+     width: 800px;
+     height: 500px;
+	background-color: #15202B;
+	
+}
+.header_container{
+		
+    padding: 8px;
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.sub{
+	margin: 5px;
+		color:#8798A5;
+		font-weight: 600;
+}
+.sub_down{
+	display: block;
+    margin-left: 210px;
+    font-size: 30px;
+   }
+.photo_img{
+	height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+.user_info{
+	display: flex;
+}
+.author,.content{
+	color:white;
+
+}
+.author{
+font-weight: 600;
+	margin-right: 10px;
+}
+.content{
+	margin-top: -15px;
+    }
+.starwarms_image{
+	border-radius: 30px;
+	width: 677px;
+    height: 320px;
+    margin-left: 100px;
+}
+.footer_icons{
+	color:#8798A5;
+	font-size: 20px;
+	display: flex;
+	justify-content:space-around;
+	margin :20px 90px;
+}
+.number{
+	margin-left: 15px;
+}

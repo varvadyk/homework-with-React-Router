@@ -1,0 +1,25 @@
+.header {
+    min-height: 120px;
+    background:#C71585;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu>li {
+    font-size: 20px;
+    margin-left: 20px;
+    list-style-type: none;
+  }
+  
+  a {
+    color: white;
+  
+      text-decoration: none;
+  
+  }
+  
