@@ -1,9 +1,7 @@
 import React from 'react';
 import './style.css';
 import {FaUserCircle}  from "react-icons/fa";
-import { AiOutlineMan } from "react-icons/ai";
- import {AiOutlineWoman}from "react-icons/ai";
- import {AiOutlineQuestion}from "react-icons/ai";
+ import { AiOutlineMan, AiOutlineWoman,AiOutlineQuestion}from "react-icons/ai";
 const Contact=({ firstName, lastName, phone,gender})=>{
 
     return(
@@ -22,7 +20,7 @@ const Contact=({ firstName, lastName, phone,gender})=>{
         <AiOutlineWoman />
       </span>
     )} 
-    {gender===undefined &&(
+    {!gender &&(
         <span className="undefined-icon">
         <AiOutlineQuestion />
       </span>
