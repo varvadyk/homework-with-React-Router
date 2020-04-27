@@ -9,7 +9,7 @@ import {
 import Layout from './components/layout';
 import { routes } from './routes.js';
 
-function App() {
+const  App = () =>{
   return (
     <Router>
       <Layout>
